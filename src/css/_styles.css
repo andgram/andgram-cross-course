@@ -279,6 +279,11 @@ color: #fff;
 .view-all {
   display: flex;
   gap: 0.4em;
+  transition: 250ms;
+}
+
+.view-all-mobile:hover ,.view-all:hover {
+  color: var(--clr-contrast);
 }
 
 .view-text {
@@ -302,7 +307,6 @@ color: #fff;
     display: none;
   }
 }
-
 
 /* ====================
    features section
@@ -665,7 +669,7 @@ color: #fff;
    }
 
    .payment-container form .submit-btn:hover {
-    background: #163d68;
+    background: var(--btn-hover);
    }
 
    .left-info {
@@ -792,10 +796,6 @@ color: #fff;
     text-transform: uppercase;
     gap: 1em;
     }
-    
-   
-
-   
    
 
 /* =============
@@ -833,6 +833,12 @@ color: #fff;
   color: #fff;
   border-radius: 4px;
   font-size: 1rem;
+  padding: 0.5em 1em;
+  transition: 250ms;
+}
+
+.form-button:hover {
+  transform: scale(1.1);
 }
 
 
@@ -845,6 +851,11 @@ color: #fff;
   gap: 2em;
   margin-bottom: 4em;
 }
+
+.col-1 a:hover {
+  color: var(--clr-contrast);
+}
+
 
 @media (min-width: 45em) {
   .col-1 {
@@ -883,3 +894,11 @@ color: #fff;
 /* ====================
    Microinteractions 
    ==================== */
+
+   .image-hover {
+    transition: 250ms;
+   }
+
+   .image-hover:hover {
+    filter: brightness(1.2);
+   }
