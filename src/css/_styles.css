@@ -72,7 +72,7 @@ section {
 
 
 /* ==============
-   header
+   header / nav
    ============== */
 
 header {
@@ -97,6 +97,8 @@ header {
   width: 1.6em;
 }
 
+
+
 .wrapper {
   margin-inline: auto;
   width: min(90%, 70.5rem);
@@ -109,6 +111,32 @@ header {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+
+nav a:after {
+  content: "";
+  position: absolute;
+  background-color: var(--clr-contrast);
+  height: 2px;
+  width: 0%;
+  left: 0;
+  bottom: -8px;
+  transition: 250ms;
+}
+
+nav a:hover:after {
+  width: 100%;
+}
+
+
+.active-page {
+  color: var(--clr-contrast);
 }
 
 .mobile-nav-toggle {
@@ -152,7 +180,6 @@ header {
     background-image: url(/images/close-circle.svg);
   }
 }
-
 
 .sr-only {
   display: none;
