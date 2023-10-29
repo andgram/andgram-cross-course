@@ -55,6 +55,14 @@
   background-color: var(--btn-hover);
 }
 
+.wide {
+  width: 100%;
+}
+
+.wide:hover {
+  transform: scale(1);
+}
+
 
 * {
   box-sizing: border-box;

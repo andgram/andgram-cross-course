@@ -665,6 +665,7 @@ color: #fff;
     cursor: pointer;
     border: none;
     text-align: center;
+    border-radius: 4px;
     
    }
 
@@ -835,6 +836,7 @@ color: #fff;
   font-size: 1rem;
   padding: 0.5em 1em;
   transition: 250ms;
+  
 }
 
 .form-button:hover {
@@ -902,3 +904,5 @@ color: #fff;
    .image-hover:hover {
     filter: brightness(1.2);
    }
+
+   
