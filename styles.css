@@ -165,7 +165,7 @@ nav a:hover:after {
 
   .mobile-nav-toggle {
     position: absolute;
-    background: url(/images/burger-menu.svg);
+    background: url(images/burger-menu.svg);
     background-repeat: no-repeat;
     width: 2rem;
     border: 0;
@@ -177,7 +177,7 @@ nav a:hover:after {
   }
 
   .mobile-nav-toggle[aria-expanded="true"] {
-    background-image: url(/images/close-circle.svg);
+    background-image: url(images/close-circle.svg);
   }
 }
 
@@ -565,7 +565,7 @@ color: #fff;
 
    .payment-container {
     display: flex;
-    background: url(/images/cart-bg.jpg);
+    background: url(images/cart-bg.jpg);
     background-size: cover;
     flex-direction: column;
     outline: none; border: none;
@@ -672,16 +672,17 @@ color: #fff;
    }
 
    .left-info {
-    background: url(/images/image-1-mini.jpg);
+    background: url(images/image-1-mini.jpg);
     background-size: cover;
-    width: 6.25em;
-    height: 6.25em;
+    width: 7em;
+    height: 7em;
    }
 
    .right-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 1em;
 
     
    }
@@ -719,8 +720,14 @@ color: #fff;
    }
 
    .complete-info-wrapper{
-    margin: 12em auto;
+    margin: 6em auto;
     max-width: 90%;
+   }
+
+   @media (min-width:50em) {
+    .complete-info-wrapper{
+      margin: 12em auto;
+     }
    }
    
    .checkmark-1 {
