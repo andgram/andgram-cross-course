@@ -191,17 +191,17 @@ nav a:hover:after {
    ==================== */
 
 .hero {
-  background-image: url('/images/hero-img-extended-flipped.jpg');
+  background-image: url('images/hero-img-extended-flipped.jpg');
   color: var(--clr-primary)
 }
 
 .hero-about {
-  background-image: url('/images/about-hero.jpg');
+  background-image: url('images/about-hero.jpg');
   color: #fff;
 }
 
 .hero-jackets {
-  background-image: url('/images/jackets-banner.jpg');
+  background-image: url('images/jackets-banner.jpg');
   color: #fff;
   background-position: left center;
   background-size: cover;
@@ -219,7 +219,7 @@ nav a:hover:after {
 }
 
 .hero-about2 {
-background-image: url('/images/about2-hero.jpg');
+background-image: url('images/about2-hero.jpg');
 color: #fff;
 
 }
@@ -227,11 +227,11 @@ color: #fff;
 @media (max-width: 40em) {
   .hero {
     
-    background-image: url('/images/hero-mobile.jpg');
+    background-image: url('images/hero-mobile.jpg');
   }
 
   .hero-about {
-    background-image: url('/images/contact-bg-mobile.jpg');
+    background-image: url('images/contact-bg-mobile.jpg');
   }
 }
 
@@ -364,7 +364,7 @@ color: #fff;
    ============== */
 
 .cta-sec {
-  background-image: url('/images/CTA\ section.jpg');
+  background-image: url('images/CTA\ section.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
