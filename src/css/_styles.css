@@ -229,6 +229,10 @@ color: #fff;
     
     background-image: url('/images/hero-mobile.jpg');
   }
+
+  .hero-about {
+    background-image: url('/images/contact-bg-mobile.jpg');
+  }
 }
 
 
