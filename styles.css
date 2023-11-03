@@ -772,7 +772,12 @@ color: #fff;
     text-align: center;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     }
+
+    .size:hover {
+      background-color: #bec4cd;
+      }
 
     .jacket-colors {
       display: flex;
@@ -781,6 +786,11 @@ color: #fff;
 
     .jacket-thumb {
       width: 18%;
+      cursor: pointer;
+    }
+
+    .jacket-thumb:hover {
+      filter: brightness(.8);
     }
 
     .line {
