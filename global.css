@@ -6,7 +6,7 @@
   --clr-primary: #07223E;
   --btn-hover: #1a3c61;
   --clr-contrast: #10B0C6;
-  --btn2-hover:#58d7e7;
+  --btn2-hover: #58d7e7;
   --clr-neutral: #C8D1D6;
 
   --ff-primary: 'Open Sans', sans-serif;
@@ -97,18 +97,19 @@ body {
      typography
      ==================== */
 
-
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--ff-heading);
   line-height: 1.2;
-}     
+}
 
 
 h1 {
   font-weight: 700;
   font-size: var(--fs-800);
   text-transform: uppercase;
-  
 }
 
 
@@ -138,18 +139,28 @@ a {
 }
 
 .button a {
-  color:var(--clr-primary);
+  color: var(--clr-primary);
 }
 
 .button-2 a {
-  color:#fff;
+  color: #fff;
 }
+
+.bold {
+  font-weight: 700;
+}
+
+
+/* ====================
+     other
+     ==================== */
 
 img {
   max-width: 100%;
   display: block;
 }
 
-.bold {
-  font-weight: 700;
+textarea:focus,
+input:focus {
+  outline: 2px solid var(--clr-contrast);
 }
