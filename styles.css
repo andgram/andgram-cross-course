@@ -91,13 +91,12 @@ header {
 
 .link-with-icon {
   display: flex;
+  width: 3.8em;
 }
 
 .cart-icon {
-  width: 1.6em;
+  width: 1.5em;
 }
-
-
 
 .wrapper {
   margin-inline: auto;
