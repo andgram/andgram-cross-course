@@ -660,16 +660,19 @@ color: #fff;
     padding-top: 1em;
    }
 
-    a.submit-btn {
+  .submit-btn {
     flex: 1;
     background-color: var(--clr-primary);
+    font-size: var(--fs-300);
+    color: #fff;
     padding: 0.8em 1em;
     text-align: center;
     border-radius: 4px;
+    border: none;
     
    }
 
-   a.submit-btn:hover {
+   .submit-btn:hover {
     background: var(--btn-hover);
    }
 
