@@ -28,10 +28,10 @@
 
       <nav>
         <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
-          <li><a class="active-page" href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="jackets.html">Jackets</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="active-page">Contact</a></li>
           <li><a href="cart.html" class="link-with-icon">
               <span class="cart-text">Cart</span>
               <img class="cart-icon" src="images/cart-icon.svg" alt="cart icon">
@@ -58,8 +58,6 @@
       <h2>Contact Information</h2>
       <div class="split">
         <div>
-          <h2>
-          </h2>
           <p>Our dedicated customer support team is available to assist you with any inquiries or concerns. Reach out to
             us during our business hours.</p>
           <p class="business-hours"><span class="bold">Business Hours:</span><br>
@@ -190,27 +188,28 @@
   <section>
     <div class="container">
       <div class="message-section">
-        <img class="happy-guy" src="images/happy-guy.jpg" alt="happy guy in rain jacket">
+        <img class="happy-guy" src="images/happy-guy.jpg" alt="happy guy in a rain jacket">
         <div>
           <h2>Send Us A Message</h2>
           <form action="process_form.php" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br><br>
-
+  
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" required><br><br>
-
+  
             <div>
               <label for="message">Message:</label>
               <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
             </div>
-
+  
             <button class="button-2" type="submit">Submit</button>
           </form>
         </div>
       </div>
-      <div>
+    </div>
   </section>
+  
 
 
   <footer class="bg-dark">
