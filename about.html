@@ -19,8 +19,6 @@
 <body>
   <header>
 
-
-
     <div class="wrapper">
 
       <div class="mobile-nav-toggle" id="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false" role="button">
@@ -30,15 +28,15 @@
 
       <nav>
         <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
-          <li><a href="index.html">Home</a></li>
+          <li><a class="active-page" href="index.html">Home</a></li>
           <li><a href="jackets.html">Jackets</a></li>
-          <li><a  class="active-page" href="about.html">About</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="cart.html" class="link-with-icon">
               <span class="cart-text">Cart</span>
               <img class="cart-icon" src="images/cart-icon.svg" alt="cart icon">
             </a>
-            </a></li>
+          </li>
         </ul>
       </nav>
     </div>
@@ -108,7 +106,7 @@
         </div>
         <div class="footer-content col-2">
           <h3>Newsletter</h3>
-          <form action="">
+          <form action="https://example.com/submit-form">
             <input type="email" placeholder="Your Email Adress" required>
             <br>
             <button class="form-button" type="submit">Subscribe Now</button>
