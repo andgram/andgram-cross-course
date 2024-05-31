@@ -6,7 +6,7 @@
 
 ### Overview
 
-Welcome to the Rainy Days web project! This project is part of our study on HTML and CSS, where we've developed a fictional company's website. In thi case, I choose a company that sells rain jackets. The main goal was to create a responsive and modern design that not only showcases the product but also enhances the user experience.
+Welcome to the Rainy Days web project! This project is part of our study on HTML and CSS, where we've developed a fictional company's website. In this case, I choose a company that sells rain jackets. The main goal was to create a responsive and modern design that not only showcases the product but also enhances the user experience.
 
 ### Key Features
 
